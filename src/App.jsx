@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { ImageGallery } from './components/ImageGallery';
 import { ImageEditor } from './components/ImageEditor';
-import img from './Group.png';
+import img from './assets/Group.png';
 
 function App() {
   const [images, setImages] = useState([]);
